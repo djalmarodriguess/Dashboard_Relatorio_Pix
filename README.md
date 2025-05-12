@@ -31,7 +31,7 @@ A TIM Brasil precisava de um painel analítico capaz de monitorar e comparar, em
 
 1. **Extração & ETL**  
    - Conexão ao SAP para extração bruta das transações PIX.  
-   - Carregamento e transformação no SAS Enterprise via SQL(Dados atualizados até 29 de Abr/25). Nessa etapa os dados são salvos em tabelas que todas a empresa pode utilizar.  
+   - Carregamento e transformação no SAS Enterprise via SQL(Dados atualizados até 30 de Abr/25). Nessa etapa os dados são salvos em tabelas que todas a empresa pode utilizar.  
    - Exportação dos dados tratados para o Excel. É feita essa exportação, pois reduz o tempo de processamento para salvamento posterior no Access.
 
 2. **Web Scraping (Python + Selenium)**  
@@ -49,6 +49,7 @@ A TIM Brasil precisava de um painel analítico capaz de monitorar e comparar, em
    - **Página 3:** Comparativo mês atual vs. anterior; performance por banco; % PIX diário.  
    - **Página 4:** KPIs de desbloqueio (eficiência de fluxo, % sucesso/erro/tramitação).  
    - **Página 5:** Distribuição de tempo de baixa de pagamento (de até 10 s a >1 h).
+   - **Página 6:** Evolução Mensal, comparativo diário das quantidades e valores financeiro do mês recorrente até dois meses anteriores(M-2).
 
 5. **Validação & Entrega**  
    - Revisão de consistência e usabilidade de filtros(Lembrando que o projeto é atualizado diariamente).  
@@ -64,7 +65,7 @@ A TIM Brasil precisava de um painel analítico capaz de monitorar e comparar, em
 ## 🚀 Resultados & Insights  
 
 - **Estabilidade & Crescimento**  
-  - Penetração média diária de PIX estabilizada em ~**61,8%** (abr/2025).  
+  - Penetração média diária de PIX estabilizada em ~**65,7%** (abr/2025).  
   - Março/2025 teve **+15,1%** de faturas pagas a mais que Fevereiro/2025.
 
 - **Principais Arrecadadores**  
@@ -72,8 +73,8 @@ A TIM Brasil precisava de um painel analítico capaz de monitorar e comparar, em
   - “Outros” bancos/fintechs somam **8%**, indicando espaço para novas parcerias.
 
 - **Adoção por Segmento**  
-  - **Controle:** 70,3% de penetração (líder).  
-  - **Corporativo:** 29,7% (crescimento de +4,6 p.p. de jul/2024 a mar/2025).  
+  - **Controle:** 65,1% de penetração (líder).  
+  - **Corporativo:** 31,2% (crescimento de +4,6 p.p. de jul/2024 a mar/2025).  
   - **Ultra Fibra:** maior aumento relativo (+8,6 p.p. no período).
 
 - **Eficiência de Desbloqueio**  
